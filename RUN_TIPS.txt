@@ -1,0 +1,31 @@
+If you are using vscode or intellij, this should work out of the box.
+
+For other IDEs you will need to make a Run Configuration with assignment.CritterApplication as the main class
+
+If you must use command line:
+    make sure javac and java are the same version. You can check by doing "java -version" and "javac -version"
+    if they are not the same, then download Java 11
+    Temurin Java is pretty good: https://adoptium.net/temurin/releases/?os=any&arch=any&package=jdk&version=11
+    You may then have to chenge your PAtH environment variable to put the new java and javac before the old ones.
+
+    Once you have the same version of java and javac, you can do:
+
+    Windows:
+        Simply run the .bat files as is
+        
+            ./run_java.bat  - runs your critter application
+            ./test_java.bat - runs your junit tests
+
+    MacOS:
+        First try:
+            sh run_java.sh
+            sh run_tests.sh
+            
+        You may have to first give your files execute permissions. You can do that with
+
+            chmod u+x ./run_java.sh ./test_java.sh
+
+        Then you can do
+
+            ./run_java.sh  - runs your critter application
+            ./test_java.sh - runs your junit tests
