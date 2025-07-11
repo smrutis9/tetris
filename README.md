@@ -88,22 +88,6 @@ Formula: `100 - (weighted negative features) + (weighted positive features)`
 4. Git branch divergence - Implemented divide-and-conquer workflow
 5. Static array access issues - Refactored Board class implementation
 
-## Pair Programming Statistics
-- **Total Hours**: 84 (42 hours per person)
-- **Ari**: 20 hours driving, 18 hours navigating, 5 hours solo
-- **Smruti**: 18 hours driving, 20 hours navigating, 3 hours solo
-
-### Pair Programming Insights
-**Benefits**:
-- Collaborative problem-solving
-- Knowledge sharing and concept clarification
-- Task delegation based on strengths
-
-**Challenges**:
-- Ensuring equal contribution
-- Communication barriers when navigating
-- Initial workflow coordination
-
 ## Authors
 - Smruti Sannabhadti
 - Ari Ayzenberg
